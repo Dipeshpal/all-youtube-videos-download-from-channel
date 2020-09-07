@@ -9,4 +9,4 @@
 
 3. It will download all the videos from channel.
 
-4. If any videos fail, it will create 'fail_list.txt' which contain the list of fail video's url.
+4. If any video fail, it will create 'fail_list.txt' in same script directory which contain the list of fail video's url.
