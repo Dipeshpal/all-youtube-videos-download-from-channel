@@ -95,7 +95,9 @@ class Youtube_API:
 
 def start():
     obj = Youtube_API()
-    channel_id = "UCGEoRAK92fUk2kY3kSJMR_Q"
+    channel_id = input("Enter Channel ID: ")
+    if len(channel_id) == 0:
+        channel_id = "UCGEoRAK92fUk2kY3kSJMR_Q"
     file_name = "total_videos.json"
 
     date = datetime.datetime.today().strftime("%Y-%m-%d")

@@ -1,8 +1,12 @@
 # all-youtube-videos-download-from-channel
 
-# How to use
+## Install requirements-
 
-1. Just run get_videos.py to start download
+`pip install -r requirements.txt`
+
+## How to use
+
+1. Just run `get_videos_2.py` to start download if not works then try `get_videos.py`
 
 2. Once you run, it will ask you to enter channel id.
    - Example: channel_id: "UCGEoRAK92fUk2kY3kSJMR_Q"
